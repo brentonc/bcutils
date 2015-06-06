@@ -1,7 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/Shortcut/@EntryValue">test</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/Description/@EntryValue">creates a test method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/Shortcut/@EntryValue">ntest</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/Description/@EntryValue">creates a test method using nunit syntax</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/Text/@EntryValue">	[Test]&#xD;
 	public void $NAME$() {&#xD;
 		//Arrange&#xD;
@@ -21,4 +21,27 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/Field/=NAME/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=848960EFDAC67643874E58B76D712A2F/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/Shortcut/@EntryValue">test</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/Description/@EntryValue">creates a test using the .net test framework syntax</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/Text/@EntryValue">	[TestMethod]&#xD;
+	public void $NAME$() {&#xD;
+		//ARRANGE&#xD;
+&#xD;
+&#xD;
+		//ACT&#xD;
+&#xD;
+&#xD;
+		//ASSERT&#xD;
+		Assert.Fail();&#xD;
+	}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=60044695075AD544AB08BCBF56BB8B50/Field/=NAME/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
